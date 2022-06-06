@@ -1,0 +1,1561 @@
+
+/* 通用样式 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.z{
+    float: left;
+}
+
+.y{
+    float: right;
+}
+ 
+/* 中间留白 */
+.center{
+    /* height: 967px; */
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    /* position: relative; */
+    position: relative;
+    padding: 0 7.5%;
+    background-image: linear-gradient(to bottom right, #928fb7 , #f0c8d6);
+}
+
+
+/* 头部 */
+.head{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    /* margin: 0 auto; */
+    background-color: white;
+    border-bottom: 1px solid #edf1f2;
+    position: fixed;
+    width: 85%;
+}
+
+.head a{
+    color: #7b7b7b;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lunpan{
+    padding-right: 110px;
+}
+
+
+
+/* 动态日历 */
+
+.head_left_ul{
+    float: left;
+}
+
+.head_left_li{
+    list-style-type:none;
+}
+
+.head_left_a{
+    width: 29px;
+    height: 20px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.head_left_ul:hover{
+    background-color: #e0e6ed;
+}
+
+/* .head_left_div{   没写完
+    width: 720px;
+    height: 510px;
+    padding: 15px;
+    opacity: 1;
+    background-color: aqua;
+} */
+
+/* 搜索框 */
+
+.head{
+    background-color: #ffffff;
+}
+
+.sosuo_2{
+    display: flex;
+    float: left;
+    height: 100%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.search{
+    font-size: 0;
+    height: 30px;
+    width: 175px;
+    /* border: 1px solid rgb(214, 211, 211); */
+    border: 1px solid #edf1f2;
+    line-height: initial;
+    border-radius: 20px;
+}
+
+.sosuo{
+    background-color: rgb(255, 255, 255);
+    border-right: 0;
+    padding: 5px 15px 5px 14px;
+    width: 107px;
+    height: 18px;
+    border-radius: 20px 0 0 20px;
+    vertical-align: middle;
+    outline-style: none;
+    /* border-top: 1px solid rgb(214, 211, 211);
+    border-bottom: 1px solid rgb(214, 211, 211);
+    border-left: 1px solid rgb(214, 211, 211); */
+    border:none;
+    transition: all .25s;
+    outline: none;
+}
+
+.sosuo:hover {
+    background-color: #e0e6ed;
+}
+
+.sosuo:focus {
+    box-shadow: 0 0 2px 2px rgba(63, 164, 231, 0.5);
+}
+
+.Button{
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 10px; */
+    /* padding: 1px 0 1px 0; */
+    border: none;
+    height: 100%;
+    width: 34px;
+    margin-left: 4px;
+    border-radius: 0 20px 20px 0;
+    vertical-align: middle;
+    border:none;
+    cursor: pointer;
+    
+    /* cursor: pointer; 待学习  鼠标放上去时*/
+
+    /* border-top: 1px solid rgb(214, 211, 211);
+    border-bottom: 1px solid rgb(214, 211, 211);
+    border-right: 1px solid rgb(214, 211, 211); */
+}
+
+.sosuo_1{
+    object-fit: contain;
+    height: 16px;
+    width: 16px;
+}
+
+
+/* <!-- 闲言碎语 --> */
+
+.head_right_ul{
+    position: relative;
+    float: right;
+    list-style: none;
+    /* margin-right: 15px; */
+    cursor: pointer
+}
+
+.head_right_li:hover{
+    background-color: #e0e6ed;
+}
+
+.head_right_a{
+    padding: 15px 25px 15px 15px;
+}
+
+.head_right_div{
+    display: none;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 51px;
+    line-height: initial;
+    color: #333;
+    
+    
+}
+
+.head_right_div1{
+    padding: 10px 15px 10px 25px;
+    width: 290px;
+    height: 20px;
+    background-color: #e0e6ed;
+    float: right;
+    /* top: 200px; */
+}
+
+.head_right_div2{
+    float: right;
+    border-bottom: 1px solid #edf1f2;
+    border-left: 1px solid #edf1f2;
+    background-color: #fff;
+}
+
+/* 闲言碎语 */
+.head_right_div1_strong{
+    font-size: 14px;
+}
+
+/* 今天一样在写荡妇直播的肛交任务，快做完了...加油加油！～ */
+/* 第一段话 */
+
+.head_right_div2_a{
+    display:block;
+    width: 290px;
+    height: 60px;
+    padding: 10px 15px 10px 15px;
+}
+
+/* 鼠标放上去的样式 */
+.head_right_div2_a:hover{
+    background-color: #f1f4f7ce;
+}
+
+.head_right_div2_span{
+    font-weight:normal;
+    width: 290px;
+    height: 60px;
+    display:inline-block;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+.head_right_div2_small{
+    font-size: 13px;
+}
+
+
+/* 算了...今天做荡妇直播吧～ */
+/* 第二段话 */
+
+.head_right_div3{
+    /* padding: 0; */
+    width: 290px;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    display:block;
+}
+
+/* 鼠标放上去的样式 */
+.head_right_div3:hover{
+    background-color: #f1f4f7ce;
+}
+
+.head_right_div3_span{
+    font-weight:normal;
+    font-size: 15px;
+    text-align: left;
+    width: 290px;
+    height: 40px;
+}
+
+.head_right_div3_small{
+    font-size: 14px;
+}
+
+
+/* 昨天我的日亚买的纺车轮到了，被长歌拉去海边玩了一圈，空军～ */
+/* 第三段话 */
+
+.head_right_div4{
+    display:block;
+    padding: 10px 15px 10px 15px;
+    width: 290px;
+    height: 60px;
+}
+
+/* 鼠标放上去的样式 */
+.head_right_div4:hover{
+    background-color: #f1f4f7ce;
+}
+
+.head_right_div4_span{
+    font-weight:normal;
+    font-size: 15px;
+    text-align: left;
+    width: 290px;
+    height: 60px;
+}
+
+.head_right_div4_small{
+    font-size: 14px;
+}
+
+
+
+/* 左侧栏 */ 
+
+.center_left_aside{    /* aside */
+    width: 220px;
+    height: 100%;
+    background-color: rgb(253, 253, 253);
+    top: 51px;
+    position: fixed;
+    border-right: 1px solid #edf1f2;
+}
+
+
+/* 头像 */
+
+.center_left_div3{
+    text-align:center;
+}
+
+.center_left_div4{
+    width: 190px;
+    height: 153px;
+    padding: 15px;
+}
+
+/* 头像的父级div */
+.center_left_div5{
+    width: 190px;
+    height: 106px;
+}
+
+.center_left_div5_a{
+    margin: 0 auto;
+}
+
+.center_left_div5_span{
+    height: 96px;
+    width: 96px;
+    /* 实现头像变圆 */
+    border-radius:50%;
+    text-align: center;
+}
+
+
+/* 介绍栏 */
+
+
+.center_left_div4_a{
+    /* 去除超链接中的下划线 */
+    text-decoration: none;
+}
+
+
+/* 抖喵酱 */
+.center_left_div4_a_span1_strong{
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+/* 图标 */
+.center_left_div4_a_span1_b{
+    /* 设置大小 */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid rgb(119, 119, 119);
+    /* transparent 相较于父级元素变透明 */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-bottom: 3px;
+}
+
+
+/* 我,18CM不接受反驳! */
+.center_left_div4_a_span2{
+    color: rgb(152, 166, 173);
+    font-size: 12px;
+}
+
+
+/* 弹窗 */
+
+.center_left_div4_ul{
+    list-style-type: none;
+}
+
+
+
+/* 分类栏 */
+
+.nva_ul{
+    list-style-type: none;
+}
+
+/* 导航 */
+
+.nva_ul_li{
+    color: rgb(152, 166, 173);
+    font-size: 12px;
+    width: 190px;
+    height: 17px;
+    padding: 0 15px 0 15px;
+    margin: 15px 0 10px 0;
+    display: block;
+}
+
+
+/* 首页 */
+
+.nva_ul_li1_a{
+    display: block;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    width: 180px;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+/* 首页图标 */
+.nva_ul_li1_a_span_svg{
+    display: inline-block;
+    vertical-align: sub;
+    padding-right: 15px;
+}
+/* 首页文字 */
+.nva_ul_li1_span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nva_ul_li1_a:hover{
+    background-color: #f1f4f7ce;
+}
+
+/* dk线 */
+.nva_ul_li2{
+    width: 0;
+    height: 0;
+    padding: 10px 0 10px 0;
+}
+
+/* 组成 */
+
+.nva_ul_li3{
+    color: rgb(152, 166, 173);
+    font-size: 12px;
+    width: 190px;
+    height: 17px;
+    padding: 0 15px 0 15px;
+    margin: 15px 0 10px 0;
+}
+
+
+/* 分类 */
+
+    .nva_ul_li4_div{
+        /* 设置为块级元素 */
+        display: block;
+        /* 去除 a标签的下划线 */
+        text-decoration: none;
+        width: 180px;
+        height: 20px;
+        padding: 10px 20px;
+        /* line-height: 10px; */
+        /* 鼠标放上去变成手 */
+        cursor: pointer;
+    }
+
+    .nva_ul_li4_div:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    .nva_ul_li4_a:hover{
+        /* 鼠标放上去时 */
+        background-color: #f1f4f7ce;
+    }
+
+    .nva_ul_li4{
+        list-style-type:none;
+    }
+
+    /* 分类图标 */
+    .nva_ul_li4_a_span1{
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        height: 40px;
+        width: 40px;
+        /* margin: -10px 5px -10px -10px; */
+    }
+
+    /* 分类图标设置对齐 */
+    .nva_ul_li4_a_span1_svg{
+        display: inline-block;
+        vertical-align: baseline;
+        padding-right: 15px;
+    }
+
+    /* 分类文字 */
+
+    .nva_ul_li4_a_span2{
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        margin-bottom: 5px;
+
+        /* 设置和图标对齐 */
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    /* 右侧角标 */
+
+    /* .nva_ul_li4_a_span_i{
+        display: inline-block;
+        float: right;
+        width: 0;
+        height: 0;
+        color: wheat;
+        border-left: 5px solid rgb(119, 119, 119);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-right: 25px;
+    } */
+
+    /* 设置右侧箭头 */
+    .nva_ul_li4_a_span_i{
+        /* 生成相对定位的元素，相对于其正常位置进行定位。 */
+        position: relative;
+        width: 10px;
+        height: 10px;
+        /* margin-right: 25px; */
+        float: right;
+        display: initial;
+    }
+
+    .nva_ul_li4_a_span_i::before{
+        /* 生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 */
+        position: absolute;
+        /* 当元素重叠时，z-order 确定哪个元素覆盖另一个元素。z-index 较大的元素通常会覆盖 z-index 较小的元素。 */
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 2px;
+        border-left: 5px solid rgb(119, 119, 119);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+    .nva_ul_li4_a_span_i::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-left: 5px solid #fff;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+    /* 设置右侧隐藏箭头 */
+    .nva_ul_li4_a_span_i1{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        float: right;
+        display: none;
+    }
+
+    .nva_ul_li4_a_span_i1::before{
+        position: absolute;
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 0px;
+        border-top: 5px solid rgb(119, 119, 119);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    .nva_ul_li4_a_span_i1::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-top: 3px solid #fff;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+
+    /* 分类隐藏页面 */
+
+    .nva_ul_li4_ul{
+        /* 去除无序符号的圆点 */
+        list-style-type:none;
+        display: none;
+        /* width: 0;
+        height: 0; */
+    }
+
+    /* 分类 */
+    .nva_ul_li4_ul_li_a{
+        /* 去除下划线 */
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+    }
+
+    /* 轮盘任务放上去的样式 */
+    .nva_ul_li4_ul_li1:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 轮盘任务 */
+    .nva_ul_li4_ul_li1_a{
+        display: block;
+        /* 去除下划线 */
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 轮盘任务 数字 */
+    .nva_ul_li4_ul_li1_a_b{
+        color: rgb(207, 218, 221);
+        font-size: 11px;
+        width: 14px;
+        height: 11px;
+        padding: 2px 5px;
+        box-sizing: border-box;
+        display: block;
+        float: right;
+        margin-right: 11px;
+    }
+
+    /* 未分类放上去的样式 */
+    .nva_ul_li4_ul_li2:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 未分类 */
+    .nva_ul_li4_ul_li2_a{
+        display: block;
+        /* 去除下划线 */
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 未分类 数字 */
+    .nva_ul_li4_ul_li2_a_b{
+        color: rgb(207, 218, 221);
+        font-size: 11px;
+        width: 15px;
+        height: 11px;
+        padding: 2px 5px;
+        display: block;
+        float: right;
+    }
+
+    /* 分类隐藏页面动画 */
+    .nva_ul_li4_ul{
+        cursor: pointer;
+    }
+
+
+    /* 页面 */
+
+    .nva_ul_li5_a{
+        text-decoration: none;
+        width: 180px;
+        height: 20px;
+        padding: 10px 20px;
+        /* box-sizing: border-box; */
+        display: block;
+        /* position: relative; */
+        cursor: pointer;
+    }
+
+    .nva_ul_li5_a:hover{
+        /* 鼠标放上去时 */
+        background-color: #f1f4f7ce;
+    }
+    
+    /* 右侧标符 */
+    .nva_ul_li5_a_span_i{
+    
+        position: relative;
+        width: 10px;
+        height: 10px;
+        float: right;
+        display: initial;
+    }
+
+    .nva_ul_li5_a_span_i::before{
+        position: absolute;
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 2px;
+        border-left: 5px solid rgb(119, 119, 119);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+    .nva_ul_li5_a_span_i::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-left: 5px solid #fff;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+    /* 设置右侧隐藏角标 */
+    .nva_ul_li5_a_span_i1{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        float: right;
+        display: none;
+    }
+
+    .nva_ul_li5_a_span_i1::before{
+        position: absolute;
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 0px;
+        border-top: 5px solid rgb(119, 119, 119);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    .nva_ul_li5_a_span_i1::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-top: 3px solid #fff;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+
+    /* 页面图标 */
+    .nva_ul_li5_a_span1{
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        /* box-sizing: border-box; */
+        width: 40px;
+        height: 40px;
+        /* display: block; */
+        /* position: absolute; */
+    }
+
+    /* 页面文字 */
+    .nva_ul_li5_a_span2{
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        line-height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        
+        /* position: absolute; */
+    }
+
+    /* 设置页面图标对齐 */
+    .nva_ul_li5_a_span1_svg{
+        display: inline-block;
+        vertical-align: sub;
+        padding-right: 15px;
+    }
+
+    /* 页面隐藏界面 */
+
+    .nva_ul_li5_ul{
+        /* 去除无序符号的圆点 */
+        list-style-type:none;
+        display: none;
+        /* width: 0;
+        height: 0; */
+    }
+
+    /* 页面 */
+    /* .nva_ul_li5_ul_li_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        padding: 10px 20px 10px 34px;
+    } */
+
+    /* 归档栏鼠标放上去的样式 */
+    .nva_ul_li5_ul_li1:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 归档栏 */
+    .nva_ul_li5_ul_li1_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        width: 150px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+        display: block;
+    }
+
+    /* 时光机鼠标放上去的样式 */
+    .nva_ul_li5_ul_li2:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 时光机 */
+    ._nva_ul_li5_ul_li2_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+
+    /* 友链 */
+
+    .nva_ul_li6_a{
+        /* 去除文字下划线 */
+        text-decoration: none;
+        /* box-sizing: border-box; */
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        width: 180px;
+        height: 20px;
+        padding: 10px 20px;
+        /* line-height: 20px; */
+        cursor: pointer;
+    }
+
+    .nva_ul_li6_a:hover{
+        /* 鼠标放上去时 */
+        background-color: #f1f4f7ce;
+    }
+    
+    /* 右侧角标 */
+    .nva_ul_li6_a_span_i{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        float: right;
+        display: initial;
+    }
+
+    .nva_ul_li6_a_span_i::before{
+        position: absolute;
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 2px;
+        border-left: 5px solid rgb(119, 119, 119);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+    .nva_ul_li6_a_span_i::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-left: 5px solid #fff;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        margin-top: 6px;
+    }
+
+
+    /* 设置右侧隐藏角标 */
+
+    ._nva_ul_li6_a_span_i1{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        float: right;
+        display: none;
+    }
+
+    ._nva_ul_li6_a_span_i1::before{
+        position: absolute;
+        z-index: 1;
+        content: '';
+        top: 0;
+        left: 0px;
+        border-top: 5px solid rgb(119, 119, 119);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    ._nva_ul_li6_a_span_i1::after{
+        position: absolute;
+        z-index: 3;
+        content: '';
+        top: 0;
+        left: 0;
+        border-top: 3px solid #fff;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    /* 图标 */
+    .nva_ul_li6_a_span1{
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        /* float: left; */
+        /* line-height: 40px; */
+        width: 40px;
+        height: 40px;
+    }
+
+    /* 设置图标对齐 */
+    .nva_ul_li6_a_span1_svg{
+        display: inline-block;
+        vertical-align: sub;
+        padding-right: 15px;
+    }
+
+    /* 设置文字对齐 */
+    .nva_ul_li6_a_span2{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    /* 隐藏页面 */
+    .nva_ul_li6_ul{
+        list-style: none;
+        display: none;
+        /* width: 0;
+        height: 0; */
+    }
+
+    /* 隐藏页面 友链 */
+    /* .nva_ul_li6_ul_li_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        box-sizing: border-box;
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    } */
+
+       /* 抖喵家店铺 鼠标放上去的样式 */
+    .nva_ul_li6_ul_li1:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 抖喵家店铺 */
+    .nva_ul_li6_ul_li1_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 电报群 鼠标放上去的样式 */
+    .nva_ul_li6_ul_li2:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 电报群 */
+    .nva_ul_li6_ul_li2_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 爱发电 鼠标放上去的样式 */
+    .nva_ul_li6_ul_li3:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 爱发电 */
+    .nva_ul_li6_ul_li3_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 男娘大学 鼠标放上去的样式 */
+    .nva_ul_li6_ul_li4:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 男娘大学 */
+    .nva_ul_li6_ul_li4_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+     /* 菊穴训练 鼠标放上去的样式 */
+     .nva_ul_li6_ul_li5:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 菊穴训练 */
+    .nva_ul_li6_ul_li5_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+     /* 不一样的人生 鼠标放上去的样式 */
+     .nva_ul_li6_ul_li6:hover{
+        background-color: #f1f4f7ce;
+    }
+
+
+    /* 隐藏页面 不一样的人生 */
+    .nva_ul_li6_ul_li6_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+    /* 不良研究所导航 鼠标放上去的样式 */
+    .nva_ul_li6_ul_li7:hover{
+        background-color: #f1f4f7ce;
+    }
+
+    /* 隐藏页面 不良研究所导航 */
+    .nva_ul_li6_ul_li7_a{
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        display: block;
+        /* box-sizing: border-box; */
+        width: 145px;
+        height: 20px;
+        padding: 10px 20px 10px 34px;
+    }
+
+
+    /* 网页中右部分 */
+/* 
+     .center-right{
+        background-color: aqua;
+        float: left;
+        display: block;
+        box-sizing: border-box; 
+        width: 643px;
+        height: 100%;
+        position: relative;
+        left: 221px;
+        top: 50px;
+    } 
+
+    .center-right::before{
+        box-sizing: border-box;
+        content: '';
+        display: table;
+    }  */
+
+
+    /* 网页图片及右部分 */
+    .center-right{
+        padding-top: 51px;
+        margin-left: 220px;
+    }
+
+    /* 总布局 */
+      .center-right-div2{
+        width: 100%;
+        /* height: 967px; */
+        /* background-color: aqua; */
+        font-size: 0;
+        display: flex;
+    }
+
+
+    /* 网页中间部分 */
+
+    .center-right-div3{
+        background-color: white;
+        width: 80%;
+        /* height: 100%; */
+        display: inline-block;
+        vertical-align: middle;
+        /* 文字初始化 */
+        font-size: initial;
+    }
+
+    /* 头部 */
+    .center-right-div3-header{
+        width: 100%;
+        height: 103px;
+        padding: 20px;
+        background-color: #fff;
+        border-bottom: 1px solid #edf1f2;;
+        box-sizing: border-box;
+    }
+
+    /* 阮阮家 */
+    .center-right-div3-header-h1{
+        color: rgb(119,119,119);
+        font-weight: lighter;
+        font-size: 30px;
+    }
+
+    /* small */
+    .center-right-div3-header-small{
+        color: rgb(160, 160, 160);
+        font-size: 13px;
+    }
+
+    /* 图片部分 */
+    .center-right-div4{
+        box-sizing: border-box;
+        width: 100%;
+        /* height: 1000%; */
+        padding: 20px;
+        background-color: rgb(119 119 119 / 8%);
+    }
+
+    .center-right-div4-1{
+        /* background-color: pink; */
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    /* 图片 */
+
+
+    /* 深夜小树林露出 */
+    .center-right-div4-1-div1{
+        width: 100%;
+        height: 803px;
+        margin-bottom: 20px;
+    }
+
+    .center-right-div4-1-div1-div1{
+        width: 100%;
+        height: 667px;
+    }
+
+    /* 深夜小树林露出 \图片 */
+    .center-right-div4-1-div1-div1-img{
+        /* width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%; */
+        width: 100%;
+        height: 100%;
+        /* border-radius: 15px; */
+        /* 设置图片上方变圆 */
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    /* 文字 */
+    .center-right-div4-1-div1-div2{
+        /* width: 100%; */
+        height: 73px;
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    .center-right-div4-1-div1-div2-h2{
+        font-weight: lighter;
+        font-size: 20px
+        
+    }
+    /* 网页右部分 */
+
+    .center-right-div2-aside{
+        background-color: #fff;
+        width: 20%;
+        /* height: 100%; */
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* 设置昵称、时间、评论 */
+    .center-right-div4-1-div1-div2-div{
+        list-style: none;
+        
+    }
+    
+    /* a标签样式装扮 */
+    .center-right-div4-1-div1-div2-div-li1-a{
+        text-decoration: none;
+        /* 单独设置a标签颜色 */
+        color: rgb(160, 160, 160);
+    }
+
+    /* 设置标题样式 */
+    .text-h{
+        color: rgb(160, 160, 160);
+        margin-bottom: 20px;
+    }
+
+    /* 设置li对齐 */
+    .li-float{
+        float: left;
+        /* 设置每个li之间的padding */
+        padding: 0 5px 0 5px;
+    }
+
+    .li1-margin-left{
+        /* 设置li1和标题对齐 */
+        margin-left: -5px;
+    }
+
+    /* 设置li内容 */
+    .center-right-div4-1-div1-div2-div{
+        color: rgb(160, 160, 160);
+        font-size: 13px;
+        margin-top: 10px;
+        /* margin-left: -5px; */
+    }
+
+
+    /* 厕所公共便器轮盘 */
+
+    /* 图片设置 */
+    .center-right-div4-1-div2-div{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .center-right-div4-1-div2-div-img{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    /* 文字 */
+    .center-right-div4-1-div2-div1{
+        /* width: 100%; */
+        height: 75px;
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    /* 设置底部距离 */
+    .center-right-div4-1-div2{
+        margin-bottom: 20px;
+    }
+
+
+
+    /* 隐藏的愉悦 */
+
+    /* 设置底部间距 */
+    .center-right-div4-1-div3{
+        margin-bottom: 20px;
+    }
+
+    .center-right-div4-1-div3-div{
+        width: 100%;
+        height: 1427px;
+    }
+    
+    /* 设置图片大小 */
+    .center-right-div4-1-div3-div-img{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    /* 设置文字部分div大小 */
+    .center-right-div4-1-div3-div1{
+        height: 75px;
+        padding: 30px;
+        background-color: #fff;
+    }
+
+
+    /* 居家放置轮盘 */
+    
+    /* 设置div大小 */
+    .center-right-div4-1-div4{
+        width: 100%;
+    }
+
+    /* 设置图片大小 */
+    .center-right-div4-1-div4-div-img{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    /* 设置评论大小 */
+    .center-right-div4-1-div4-div2{
+        height: 75px;
+        padding: 30px;
+    }
+    
+
+
+
+
+
+
+    /* 右侧 上部 */
+    
+    /* 设置大的div高度 */
+    .center-right-div2-aside-div{
+        height: 500px;
+        margin-bottom: 45px;
+    }
+    /* 设置li */
+    .center-right-div2-aside-div-li{
+        list-style-type: none;
+        float: left;
+        /* width: 100%; */
+        height: 100%;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        width: 33.3%;
+        cursor: pointer;
+    }
+
+
+    /* 设置ul 大小 */
+    .center-right-div2-aside-div-div-ul{
+        /* height: 62px; */
+        height: 35px;
+        padding-top: 20px;
+    }
+  
+    /* 设置图片大小 */
+    .center-right-div2-aside-div-li-img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* 设置文字区域div */
+    .center-right-div2-aside-div2-div{
+        box-sizing: border-box;
+        /* width: 100%; */
+        height: 347px;
+        padding: 20px;
+    }
+
+    /* 标题 热门文章 */
+    .center-right-div2-aside-div2-div-h5{
+        display: block;
+        font-size: 16px;
+        color: rgb(119 119 119 / 54%);
+        margin-left: -5px;
+        margin-bottom: 10px;
+    }
+
+    /* 设置 ul 的大小 */
+    .center-right-div2-aside-div2-div-ul{
+        margin-left: -15px;
+    }
+
+    /* 设置 li 的大小 */
+    .center-right-div2-aside-div2-div-ul-li{
+        height: 45ppx;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        margin-left: -5px;
+    }
+
+
+    .center-right-div2-aside-div2-div-ul-li1{
+        height: 45ppx;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        margin-left: -5px;
+    }
+
+
+    /* 伪娘支配游戏 */
+    .center-right-div2-aside-div2-div-ul-li-div-h4{
+        font-size: 16px;
+        color: rgb(119 119 119 / 54%);
+        box-sizing: border-box;
+        padding-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .center-right-div2-aside-div2-div-ul-li-div0small{
+        font-size: 13px;
+        color: rgb(160, 160, 160);
+    }
+
+
+
+    /* 中间部分 */
+    .center-right-div2-aside-div1{
+        height: 255px;
+        padding: 20px;
+        box-sizing: border-box;
+        /* background-color: #f0c8d6; */
+        margin-bottom: 25px;
+    }
+
+    /* 博客信息 */
+    .center-right-div2-aside-div1-h5{
+        font-size: 16px;
+        color: rgb(119 119 119 / 53%);
+        margin-bottom: 10px;
+    }
+
+    /* 设置背景颜色 */
+    .center-right-div2-aside-div1-ul{
+        background-color: rgb(119 119 119 / 4%);
+        border: 1px solid #edf1f2;
+    }
+    
+    /* 设置 li 的高度 */
+    .center-right-div2-aside-div1-ul-li{
+        height: 22px;
+        font-size: 16px;
+        color: rgb(119 119 119 / 83%);
+        list-style-type: none;
+        /* box-sizing: border-box; */
+        padding: 15px;
+    }
+
+
+    /* 设置右侧 span  */
+    .center-right-div2-aside-div1-ul-li-span{
+        background-color: rgb(119 119 119 / 24%);
+        font-size: 15px;
+        color: #fff;
+        float: right;
+        border-radius: 93px;
+        text-align: center;
+        line-height: 20px;
+        width: 35px;
+    }
+
+    .center-right-div2-aside-div1-ul-li-span1{
+        background-color: rgb(119 119 119 / 24%);
+        font-size: 15px;
+        color: #fff;
+        float: right;
+        border-radius: 93px;
+        text-align: center;
+        line-height: 20px;
+        width: 43px;
+    }
+
+    .center-right-div2-aside-div1-ul-li-span2{
+        background-color: rgb(119 119 119 / 24%);
+        font-size: 15px;
+        color: #fff;
+        float: right;
+        border-radius: 93px;
+        text-align: center;
+        line-height: 20px;
+        width: 43px;
+    }
+
+    .center-right-div2-aside-div1-ul-li-span3{
+        background-color: rgb(119 119 119 / 24%);
+        font-size: 13px;
+        color: #fff;
+        float: right;
+        border-radius: 93px;
+        text-align: center;
+        line-height: 20px;
+        width: 43px;
+    }
+
+
+    /* 下 */
+
+    .center-right-div2-aside-div2{
+        /* background-color: pink; */
+        height: 251px;
+        padding: 20px;
+    }
+
+    /* 标签云 */
+    .center-right-div2-aside-div2-h5{
+        font-size: 16px;
+        color: rgb(119 119 119 / 53%);
+    }
+
+    /* 标签内容 */
+    .center-right-div2-aside-div2-div-a{
+        border-radius: 93px;
+        text-decoration:none;
+        font-size: 12px;
+        color: #fff;
+        background-color: rgb(119 119 119 / 24%);
+        padding: 3px 7px;
+        width: 28px;
+        height: 14px;
+        /* display: block; */
+    }
