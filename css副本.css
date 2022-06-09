@@ -1255,6 +1255,14 @@
     /* 设置标题样式 */
     .text-h{
         color: rgb(160, 160, 160);
+        margin-bottom: 0px;
+        
+    }
+
+    .text-h-a{
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(160, 160, 160);
         margin-bottom: 20px;
     }
 
